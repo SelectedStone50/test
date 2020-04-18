@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="/js/plugin/jq.js"></script>
+    <script src="/js/main.js"></script>
+
+</head>
+<body>
+    <div class="covid__wrapper container">
+        <div class="titles">
+            <h1>COVID-19</h1>
+            <h6>HEATMAP + NEWS</h6>
+            <img src="/loader-1.gif" alt="">
+
+                {{!-- Toggle --}}
+                <div class="wrapper-toggle">
+                    <input type="checkbox" id="hide-checkbox" checked="checked">
+                    <label for="hide-checkbox" class="toggle">
+                        <span class="toggle-button">
+                            <span class="crater crater-1"></span>
+                            <span class="crater crater-2"></span>
+                            <span class="crater crater-3"></span>
+                            <span class="crater crater-4"></span>
+                            <span class="crater crater-5"></span>
+                            <span class="crater crater-6"></span>
+                            <span class="crater crater-7"></span>
+                        </span>
+                        <span class="star star-1"></span>
+                        <span class="star star-2"></span>
+                        <span class="star star-3"></span>
+                        <span class="star star-4"></span>
+                        <span class="star star-5"></span>
+                        <span class="star star-6"></span>
+                        <span class="star star-7"></span>
+                        <span class="star star-8"></span>
+                    </label>
+                </div>
+        </div>
+
+        
+        <div id="regions_div" style="width: 601px; height: 500px;"></div>
+
+    </div>
+</body>
+</html>
